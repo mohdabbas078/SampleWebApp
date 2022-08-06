@@ -40,6 +40,8 @@
             <classes dir="build/classes"/>
         </war>
     </target>
-
+<presetdef name="javac">
+    <javac includeantruntime="false" />
+  </presetdef>
 </project>
 
